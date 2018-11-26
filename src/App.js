@@ -1,16 +1,22 @@
 import React, { Component } from 'react';
 
-import HomeComponent from '@/pages/main/mainComponent'
+
+//引入路由
+import Router from '@/router'
+import HomeContainer from '@/pages/main/home/homeContainer'
+import Footer from '@Common/footer'
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-          <HomeComponent />
-          
+            {/* <HomeContainer />*/}
+            <Router />
+            {/* <Footer />  */}
       </div>
     );
   }
 }
 
 export default App;
+ 

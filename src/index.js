@@ -3,9 +3,17 @@ import ReactDOM from 'react-dom';
 
 import '@Lib'
 
+import { BrowserRouter } from "react-router-dom";
+
+
 import App from '@/App';
 import * as serviceWorker from '@/serviceWorker';
 
-ReactDOM.render(<App />, document.getElementById('root'));
+ReactDOM.render(
+    <BrowserRouter>
+        <App />
+    </BrowserRouter>
+
+, document.getElementById('root'));
 
 serviceWorker.unregister();

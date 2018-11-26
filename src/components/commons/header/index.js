@@ -5,7 +5,6 @@ import { HeaderContainer , Navbar } from './styleComponents'
 
 class Header extends Component {
     render () {
-        console.log(this.props)
         return (
             <HeaderContainer >
                 {/* 传入参数判断是否出现返回 */}
