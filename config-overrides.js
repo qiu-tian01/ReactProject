@@ -17,7 +17,9 @@ module.exports = function override(config, env) {
         '@Cpt': resolve('components'),
         '@Pages': resolve('pages'),
         '@Lib': resolve('lib'),
-        '@Common': resolve('components/commons')
+        '@Common': resolve('components/commons'),
+        '@store' : resolve('store'),
+        '@connect' : resolve('connect')
     }
     console.log(config.resolve.alias)
 

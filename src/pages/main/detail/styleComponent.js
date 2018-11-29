@@ -1,5 +1,7 @@
 import styled from 'styled-components'
 
+
+
 export const DetailContainStyle = styled.div`
     position:relative;
     .movie-detail{
@@ -14,7 +16,6 @@ export const DetailContainStyle = styled.div`
             background-color: #333;
         }
         .poster-bg{
-            background-image : url(http://p0.meituan.net/148.208/movie/3e7696319c840d4890e947b926259d532809641.jpg);
             width: 100%;
             height: 100%;
             z-index: -1;
@@ -35,6 +36,10 @@ export const DetailContainStyle = styled.div`
                 height: 4rem;
                 box-sizing: border-box;
                 display: block;
+                img{
+                    width :110px;
+                    height: 150px;
+                }
             }
             .contents{
                 overflow-x: hidden;

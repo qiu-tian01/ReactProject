@@ -23,6 +23,9 @@ import { HomeContainerStyle } from './styledComponent'
 
 
 class HomeContainer extends Component {
+
+    
+
     render () {
         return (
             <div className ="home-container">

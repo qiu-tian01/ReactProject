@@ -1,0 +1,3 @@
+
+export const GET_LIST_ASYNC = 'GET_LIST_ASYNC'
+export const GET_CINEMA_ASYNC = 'GET_CINEMA_ASYNC'

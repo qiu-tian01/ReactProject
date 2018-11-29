@@ -24,7 +24,7 @@ class Router extends Component {
                 <Route exact path="/cinema" component={Cinema} />
                 <Route exact path="/mine" component={Mine} />
                 <Route exact path="/login" component={Login} />
-                <Route exact path="/detail" component={Detail} />
+                <Route exact path="/detail:id" component={Detail} />
                 {/* <Redirect exact from = "/home" to="/home/hotplay" component={HotPlay}/>
                         <Route exact  path="/home/houtpaly" component={HotPlay} />
                         <Route exact path="/cinema/willpay" component={WillPlayu} /> */}
